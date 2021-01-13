@@ -10903,3 +10903,19 @@ a.text-dark:focus {
   }
 }
 
+@font-face {
+  font-family: OpenSansCondensed-Light;
+  src: url(/fonts/OpenSansCondensed-Light.ttf?3589bddbe338e444d408f4dbc545ca1e) format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TitilliumWeb-ExtraLight;
+  src: url(/fonts/TitilliumWeb-ExtraLight.ttf?f291df8df03282f2c26a9d93e748540e) format("truetype");
+  font-style: normal;
+}
+
+body {
+  font-family: "TitilliumWeb-ExtraLight", "OpenSansCondensed-Light", "Calibri";
+}
+
