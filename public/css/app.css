@@ -10927,6 +10927,8 @@ a.text-dark:focus {
 
 body {
   font-family: "TitilliumWeb-ExtraLight", "OpenSansCondensed-Light", "Calibri";
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 .centrar {
@@ -10935,5 +10937,10 @@ body {
   height: 100vh;
   justify-content: center;
   width: 100%;
+}
+
+.form-control {
+  color: #000;
+  font-weight: 600;
 }
 
